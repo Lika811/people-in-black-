@@ -1,0 +1,71 @@
+body{
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+#contacts{
+    background: rgb(254, 255, 255);
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    color: black;
+    width: 150px;
+    font-family: fantasy;
+    
+}
+#adress{
+    background: rgb(254, 255, 255);
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    color: black;
+    width: 150px;
+    font-family: fantasy;
+    
+}
+#parking{
+    background: rgb(254, 255, 255);
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    color: black;
+    width: 170px;
+    font-family: fantasy;
+
+}
+#box{
+    background: rgb(254, 255, 255);
+    padding: 45px;
+    margin: 4px;
+    border-radius: 30px;
+    flex-direction: row;
+    display: flex;
+    width: max-content;
+    height: 85%;
+}
+#grafik{
+    background: rgb(254, 255, 255);
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    color: black;
+    font-family: fantasy;
+}
+#map{
+    margin: 4px;
+    border-radius: 30px;
+    overflow: hidden;
+    align-self: flex-start;
+    width: max-content;
+    *{
+        flex:1;
+        align-self: stretch;
+    }
+}
+button{
+    font-family: fantasy;
+    color: black;
+    border: none;
+    height: 60%;
+    width: 10%
+}
